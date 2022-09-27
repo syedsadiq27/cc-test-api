@@ -276,7 +276,7 @@ app.delete("/wardDimensionButton/:id", async (req, res) => {
 
 sslServer.listen(
   process.env.PORT,
-  console.log(`Listening on port ${process.env.PORT}...`)
+  console.log(`Listening on port ${process.env.PORT} and connected to ${process.env.DB_CONNECTION_STRING}...`)
 );
 
 // mongoose.connect(
